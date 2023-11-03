@@ -9,7 +9,7 @@
 * [Exploratory Data Analysis (EDA)]()
 * [Questions Asked For Data Analysis]()
 * [Results/Findings]()
-* [Recommendation]()
+* [Conclusion]()
 
 ### Data Set Overview :
 The Sleep Health and Lifestyle Dataset comprises 400 rows and 13 columns, covering a wide range of variables related to sleep and daily habits. It includes details such as gender, age, occupation, sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the presence or absence of sleep disorders.
@@ -74,3 +74,15 @@ df.to_csv("/content/drive/MyDrive/Data Analysis End to End Projects/Sleep_Health
 * Explore the relationship betn average sleep duration and BMI category.
 * Identify the Dominent occupation within the Male Category.
 * Find the Average Heart with the BMI category
+### Results / Findings :
+[Final Data Analysis Report (PPT)](https://github.com/shubhamkadam10009/Other/blob/main/End%20to%20End%20Projects/Sleep_health_and_lifestyle/Sleep_Health_and_lifestyle/Final%20Analysis%20Report.pptx)
+#
+![Screenshot (49)](https://github.com/shubhamkadam10009/Projects/assets/135099215/99c13719-25c1-4135-b15f-c602de80ce28)
+![Screenshot (50)](https://github.com/shubhamkadam10009/Projects/assets/135099215/54752974-3eb4-477b-932a-94735b414c5a)
+![Screenshot (51)](https://github.com/shubhamkadam10009/Projects/assets/135099215/62f76ed3-6bad-4516-88a9-203865541741)
+![Screenshot (52)](https://github.com/shubhamkadam10009/Projects/assets/135099215/cd2a2f68-540c-4e0e-a25a-118b26323b02)
+![Screenshot (53)](https://github.com/shubhamkadam10009/Projects/assets/135099215/ac45f01d-fe5a-4bdb-aed7-2862b0ef8c1f)
+#
+### Conclusion :
+`This is my another project as a Data Analyst where the data is obtained from the Kaggle. The usual data processing steps are performed, including data cleaning. EDA (Exploratory Data Analysis ) techniques are applied to gain insight from the data, and the questions are formulated based on the analysis. Visualisation such as bar chart, pie chart and other types of chart are created to present the findings.
+`
