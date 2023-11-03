@@ -248,6 +248,17 @@ ps.pie (data, values = values,names= values.index, title = "Pie Chart")
 data.to_csv("/content/drive/MyDrive/Data Analysis End to End Projects/Bank Personal Loan Modelling/Bank Personal Loan Modelling EDA.csv")
 ```
 [EDA Performed, Cleaned CSV File](https://github.com/shubhamkadam10009/Other/blob/main/End%20to%20End%20Projects/Bank%20Personal%20Loan%20Modelling/Data%20Set/Bank%20Personal%20Loan%20Modelling%20EDA.csv) 
+#
+## Questions Asked For Data Analysis :
+* How many persons accepted the loans ?
+* Whats is the relation between Family Size & number of loan taken ?
+* Whats is the relation between Education, income and loan ?
+* Whats is the relation between Education, mortage and loan ?
+* Whats is the relation between the person who has securities and loan ?
+* Whats is the relation between CD account and Loan ?
+* Whats is the relation between CCavg and loan ?
+* Whats is the relation between average income and loan ?
+#
 
 
 
