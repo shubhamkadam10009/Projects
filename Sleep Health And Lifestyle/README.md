@@ -60,4 +60,17 @@ df.isna().sum()
 ![Screenshot (48)](https://github.com/shubhamkadam10009/Projects/assets/135099215/796774e1-0504-4a18-8f22-d0e7d1b228f2)
 **The Data set has not any null values, and we remove the unnecessary columns. Hence our Data Set is ready for the further analysis:**
 
-
+```
+# Saving our Data set for further Analysis
+df.to_csv("/content/drive/MyDrive/Data Analysis End to End Projects/Sleep_Health_and_lifestyle/Sleep_Health_and_Lifestyle.csv")
+```
+### Questions Asked For the Data Analysis :
+* Sleep Disorder Percentage.
+* Gender Percentage in the Data using a pie chart.
+* Distribution of Age using Histogram.
+* Determine the Highest occupation in the Data Set.
+* Analyze the distriibution of the Sleep duration based on Gender.
+* Visualize the average sleep duration across different occupations using a bar chart.
+* Explore the relationship betn average sleep duration and BMI category.
+* Identify the Dominent occupation within the Male Category.
+* Find the Average Heart with the BMI category
