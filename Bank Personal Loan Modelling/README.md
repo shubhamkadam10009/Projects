@@ -247,7 +247,7 @@ ps.pie (data, values = values,names= values.index, title = "Pie Chart")
 #Saving Data For Further Analysis
 data.to_csv("/content/drive/MyDrive/Data Analysis End to End Projects/Bank Personal Loan Modelling/Bank Personal Loan Modelling EDA.csv")
 ```
-[EDA Performed, Cleaned CSV File}(https://github.com/shubhamkadam10009/Other/blob/main/End%20to%20End%20Projects/Bank%20Personal%20Loan%20Modelling/Data%20Set/Bank%20Personal%20Loan%20Modelling%20EDA.csv) 
+[EDA Performed, Cleaned CSV File](https://github.com/shubhamkadam10009/Other/blob/main/End%20to%20End%20Projects/Bank%20Personal%20Loan%20Modelling/Data%20Set/Bank%20Personal%20Loan%20Modelling%20EDA.csv) 
 
 
 
