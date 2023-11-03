@@ -1,4 +1,4 @@
-## Bank Personal Loan Modelling 
+## Bank Personal Loan Analysis 
 #
 ![pexels-nappy-935979](https://github.com/shubhamkadam10009/Projects/assets/135099215/e86e0ed8-0421-493c-b36d-a8720b2aff2e)
 
