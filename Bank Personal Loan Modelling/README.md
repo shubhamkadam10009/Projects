@@ -180,5 +180,70 @@ data["Education"].unique()
 #### 2 means - Graduate
 #### 3 means - Working professional or higher
 #### so now converting the above data into the readable format`
+```
+def experience(x):
+  if x==1:
+    return "Under Graduate"
+  if x == 2:
+    return "Graduate"
+  if x == 3:
+    return "Professional"
+```
+```
+data["EDU"] = data["Education"].apply(experience)
+```
+```
+data.head()
+```
+![Screenshot (72)](https://github.com/shubhamkadam10009/Projects/assets/135099215/1bef8609-c768-4873-b6f9-6914f1018bb8)
+```
+data["EDU"].unique()
+```
+`array(['Under Graduate', 'Graduate', 'Professional'], dtype=object)`
+`# So here we converted the data in the education column which is in the form of 1,2,3 into direct readable column, Now we dont need the Education column in the data table, so we will drop that column`
+```
+data.drop(["Education"],axis=1, inplace=True)
+data.head()
+```
+![Screenshot (73)](https://github.com/shubhamkadam10009/Projects/assets/135099215/3a48a536-a83c-4cdf-b30d-8d0664fdf9ce)
+```
+education_dist = data.groupby(by="EDU")["Age"].count()
+education_dist
+```
+![Screenshot (74)](https://github.com/shubhamkadam10009/Projects/assets/135099215/dd0d9b59-26a3-44fd-8653-48122ded99b5)
+![Screenshot (75)](https://github.com/shubhamkadam10009/Projects/assets/135099215/c8b2cd00-c502-4980-9290-69f60fd89a5d)
+`# Now let us handle the columns security account and CD account columns`
+```
+def sec (y) :
+  if(y["Securities Account"]==1) &(y["CD Account"]==1):
+    return "Hold Securities and Deposit Account"
+  if(y["Securities Account"]==0) &(y["CD Account"]==0):
+    return "Does Not hold Securities and Deposit Account"
+  if(y["Securities Account"]==1) &(y["CD Account"]==0):
+    return "Hold Securities account"
+  if(y["Securities Account"]==0) &(y["CD Account"]==1):
+    return "Hold CD Account"
+```
+```
+data["Account_Holder_Category"] = data.apply(sec,axis=1)
+```
+```
+data.head()
+```
+![Screenshot (76)](https://github.com/shubhamkadam10009/Projects/assets/135099215/567d7cab-0e7d-4267-b1f2-7bdfe43ea11a)
+```
+values=data["Account_Holder_Category"].value_counts()
+```
+```
+values.index
+```
+![Screenshot (77)](https://github.com/shubhamkadam10009/Projects/assets/135099215/589f9166-50ba-490b-b4fb-319540322035)
+```
+# plotting pie chart of the above data
+ps.pie (data, values = values,names= values.index, title = "Pie Chart")
+```
+![Screenshot (78)](https://github.com/shubhamkadam10009/Projects/assets/135099215/fbc1e2ac-3afa-4c00-b043-d28154bdbdca)
+
+
 
 
