@@ -11,7 +11,6 @@
 * [Exploratory Data Analysis ( EDA )]()
 * [Questions Asked For Data Analysis]()
 * [Results / Findings]()
-* [Recommendation]()
 #
 ## Buisness Case :
 ` This case is about the bank ( Thera Bank ) whose management wants to explore the ways of converting its liability customers to personal loan customer(while retaining them as depositor). A campaign that the bank ran last year for the liability customers showed the healthy conversion rate of over 9% success. This has encouraged the retail marketing department to device campaigns with better target marketing to increase the success ratio with minimum budget.`
@@ -259,6 +258,24 @@ data.to_csv("/content/drive/MyDrive/Data Analysis End to End Projects/Bank Perso
 * Whats is the relation between CCavg and loan ?
 * Whats is the relation between average income and loan ?
 #
+## Results / Findings :
+#
+![Screenshot (85)](https://github.com/shubhamkadam10009/Projects/assets/135099215/6d94eac9-04c1-4af0-b6f1-dd5b959dd341)
+`From the above we can see that the data is having a huge bias(alomot 1:10) towards the category of people not accepting the personal loan. Hence we can build an opinion that our model will tends to perform better towards predicting which customers will not accept the personal loan. However, our goal is to identityfy the customer who can accept the personal loan based on the given features.`
+![Screenshot (86)](https://github.com/shubhamkadam10009/Projects/assets/135099215/59ee7ecb-60b1-4b68-8d92-479769cc820c)
+` Family size does not have any impact in personal loan. But it seems families with size of 3 and 4 are more likely to take loan.`
+![Screenshot (87)](https://github.com/shubhamkadam10009/Projects/assets/135099215/b4cf5381-f674-42ab-93cd-db0356190b6a)
+`Customers who has securies account are more likly to take loan. Majority of customers who does not have loan do not have securities account.`
+![Screenshot (88)](https://github.com/shubhamkadam10009/Projects/assets/135099215/d3b0cfd9-ba39-4457-b486-22ffd44e1ef5)
+`From the above we can see that customers whose education level is 1 and did not take loan has higher mortgage than customers who take loan of same education level. Customers whose education level is 2and 3 and did not take loan has lesser mortgage than customers who take loan of same education level`
+![Screenshot (89)](https://github.com/shubhamkadam10009/Projects/assets/135099215/513a544c-d9d7-4d85-a5e2-47a7364fc0e9)
+`From above we can say that customers with undergraduate level of education and family greater than 3 are good customers who took loan. Customer who took loan have same income range irrespective of education level. Education of Graduate and above have more chance to take loan.`
+![Screenshot (90)](https://github.com/shubhamkadam10009/Projects/assets/135099215/43c8c905-fbf1-424b-b1d5-7e5c20ef6710)
+`Customers who does not have CD account , does not have loan as well. This seems to be majority. But almost all customers who has CD account has loan as well`
+![Screenshot (91)](https://github.com/shubhamkadam10009/Projects/assets/135099215/cb608217-10b0-4c61-a38b-2a3f6bd95621)
+` The CCavg is greater of the person who has the loan as compared to the person who has not any loan`
+![Screenshot (92)](https://github.com/shubhamkadam10009/Projects/assets/135099215/dde8d5b5-d781-44d0-8a87-9c51a06bb6dd)
+`Person who has income more is tend to apply for the loan, compared to the less income. The avg of the income of the person who has loan is greater compared to the person who has not taken loan.`
 
 
 
