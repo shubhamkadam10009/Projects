@@ -16,6 +16,7 @@
 ` This case is about the bank ( Thera Bank ) whose management wants to explore the ways of converting its liability customers to personal loan customer(while retaining them as depositor). A campaign that the bank ran last year for the liability customers showed the healthy conversion rate of over 9% success. This has encouraged the retail marketing department to device campaigns with better target marketing to increase the success ratio with minimum budget.`
 #
 ## Final Dashboard : [PowerBi File]()
+![Screenshot (93)](https://github.com/shubhamkadam10009/Projects/assets/135099215/e6445e7c-0bbf-423a-8ed4-f953c7a239ed)
 
 #
 ## Data Source and Data Description : [Original Data Set File](https://github.com/shubhamkadam10009/Other/blob/main/End%20to%20End%20Projects/Bank%20Personal%20Loan%20Modelling/Data%20Set/Bank_Personal_Loan_Modelling.csv)
