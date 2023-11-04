@@ -26,6 +26,7 @@ The Data Set is downloaded from the **Kaggle**.
 * **Excel**
 * **Python (Pandas)** : For Data Preparation and cleaning purpose.
 * **PowerBi** : For the Visualisation purpose.
+* **PowerPoint** : For presentation purpose
 #
 ## Data Cleaning / Preparation :
 ```
